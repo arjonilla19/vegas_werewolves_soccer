@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+ 
+header{
+background-color: #1D1160;
+display: grid;
+grid-template-columns: 150px auto;
+}
+
+.navi {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    padding: 35px;
+}  
+
+nav a:hover {
+    background-color:#00788C;;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -100px; 
+    text-align: center;
+    width: 100%;
+}
+
+#hero-box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+#hero-img{
+    padding-top: 110px;
+    width: 70%;
+    height: 300px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+}
+
+.home-intro{
+margin-top: 30px;
+grid-column: 2/3;
+grid-row:1/2;
+}
+
+.masl-card{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-column: 2/3;
+    grid-row:3/4;
+    background-color: #1D1160;
+}
+
+.home-two{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+
+.card-img{
+    height: 400px;
+    width: 100%;
+    border:10px solid #00788C;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #A1A1A4;
+    }
+
+    .card-img:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+
+main section{
+    text-align: center;
+    }
+    
+body {
+background-color: white;
+font-size: 22px;
+font-family: 'Lato','San-serif','Roboto';
+margin: 0;
+padding: 0;
+}
+
+footer{
+background-color:  #1D1160;
+padding: 25px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+footer h3 a:hover{
+    text-decoration: none;
+}
+
+h1,h4,p {
+    color: #00788C;
+}
+
+h3{
+    color:white;
+}
+
+h2 {
+    margin: 0;
+    color:#1D1160;
+
+}
+
+.masl-card p{
+    color:white;
+}
+
+.masl-card h2{
+    color:white;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
