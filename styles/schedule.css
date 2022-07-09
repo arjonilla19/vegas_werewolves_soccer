@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+ 
+header{
+background-color: #1D1160;
+display: grid;
+grid-template-columns: 150px auto;
+}
+
+.navi {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    padding: 35px;
+}  
+
+nav a:hover {
+    background-color:#00788C;;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+}
+
+#hero-box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+#hero-img{
+    width: 100%;
+    height: 500px;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 1fr;
+}
+
+.schedule-info{
+margin-top: 30px;
+grid-column: 2/4;
+grid-row:1/2;
+}
+
+.resonance{
+    grid-column: 3/4;
+    grid-row:3/4;
+    padding-top: 300px;
+}
+
+.schedule{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-column: 2/4;
+    grid-row:3/4;
+    background-color: #1D1160;
+}
+
+table{
+    grid-column:2/3;
+    grid-row:3/4;
+}
+
+.dimensions-card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-column: 2/4;
+    grid-row:2/3;
+}
+
+.card-img{
+    height: 500px;
+    width: 105%;
+    border:10px solid #00788C;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #A1A1A4;
+    }
+
+    .card-img:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
+
+main section{
+    text-align: center;
+    }
+    
+body {
+background-color: white;
+font-size: 22px;
+font-family: 'Lato','San-serif','Roboto';
+margin: 0;
+padding: 0;
+}
+
+footer{
+background-color:  #1D1160;
+padding: 25px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+footer h3 a:hover{
+    text-decoration: none;
+}
+
+h1,h4,p {
+    color: #00788C;
+}
+
+h3{
+    color:white;
+}
+
+h2 {
+    color: #fefefe;
+    padding-bottom: 50px;
+
+}
+
+.masl-card p{
+    color:white;
+}
+
+.masl-card h2{
+    color:white;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+table{
+    color:white;
+}
+
+.schedule{
+    background-color: #1D1160;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  
+  #space{
+    background-color: #1D1160;
+    height: 25px;
+  }

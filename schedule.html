@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="styles/schedule.css">
 </head>
 <body>
     <div id="content">
+        <div id="space"></div>
         <header>
 
             <a id="logo_link" href="index.html">
@@ -18,6 +20,41 @@
                 <a class="navi" href="schedule.html">Schedule</a>
                 <a class="navi" href="roster.html">Roster</a>
             </nav>
+
+            <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="Assets/Las Vegas Werewolves Logo.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
         </header> 
 
         <div id="hero">
@@ -46,6 +83,7 @@
                 <section class="schedule">
                     <h2>The MASL 2022-2023 Las Vegas Werewolves Full Schedule</h2>
                     <div id="background"></div>
+                    <div>
                     <table>
                         <tr>
                             <th>Date</th>
@@ -174,13 +212,17 @@
                                 <td>Werewolves vs Stars</td>
                                 <td>Away</td>
                             </tr>
-                     
+                            </table>
+                        </div>
+  
                     </table>
-                       
-                        <p>Head Coach Gerard Cassidy, Assistant Coach Donavon Keane</p>
-                        <img class="logo" src="Assets/Las Vegas Werewolves Logo.png" alt="Las Vegas Wererwolves Logo">
-                        </section>
+                       </section>
+
+                       <div class="resonance">
+                        <img src="Assets/Las Vegas Werewolves Logo.png" alt="Las Vegas Wererwolves Logo for Schedule">
+                       </div>
                 
+                        
                
             </main>
             
@@ -195,7 +237,7 @@
                     <img class="icon" img src="Assets/294709_circle_twitter_icon.png" alt="twitter icon">
                 </a>
                 <a href="https://facebook.com" target="_blank">
-                    <img class="iconface" img src="Assets/107175_circle_facebook_icon.png" alt="fb icon">
+                    <img class="icon" img src="Assets/107175_circle_facebook_icon.png" alt="fb icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
                     <img class="icon" img src="Assets/3225191_app_instagram_logo_media_popular_icon.png" alt="instagram icon">
