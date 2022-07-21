@@ -192,6 +192,10 @@ table{
     background-color: #1D1160;
 }
 
+#facebookicon{
+    width: 85px;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

@@ -162,6 +162,10 @@ footer .social img {
     padding-top: 15px;
 }
 
+#facebookicon{
+    width: 85px;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
